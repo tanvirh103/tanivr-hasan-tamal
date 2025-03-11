@@ -6,7 +6,9 @@
 @tailwind utilities;
 
 body {
-  background-color: #71717a5c;
+  background-color: #070709;
+  color: #f2f6fa;
+  text-shadow:#909091;
 }
 
 ::-webkit-scrollbar-track {
@@ -26,36 +28,6 @@ body {
   background-color: #71717a5c;
 }
 
-/* .fr-box .fr-element {
-  height: 160px;
-  background: #f8fafc;
-  overflow-y: auto;
-}
-
-.fr-toolbar {
-  background: #f8fafc !important;
-}
-
-.fr-second-toolbar {
-  background: #f8fafc !important;
-} */
-
-/* .fr-view,
-.fr-box,
-.fr-wrapper {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.fr-toolbar {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.fr-second-toolbar {
-  border: none !important;
-  box-shadow: none !important;
-} */
 
 .custom-layout {
   max-width: 1400px;
