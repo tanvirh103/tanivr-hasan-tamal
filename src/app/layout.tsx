@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "./Component/Navbar";
 const gilroy = localFont({
   src: [
     {
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${gilroy.className}`}
       >
+        <Navbar/>
         {children}
       </body>
     </html>
