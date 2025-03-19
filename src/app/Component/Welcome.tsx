@@ -10,27 +10,32 @@ import {
 } from "@/SVG/WelcomeSvg";
 import Link from "next/link";
 
+
 export default function Welcome() {
   return (
-    <div className="flex flex-col lg:flex-row justify-between mt-8 md:items-center md:justify-center sm:items-center sm:justify-center">
-      <div className="my-auto  w-[50%]">
+    <div className="max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8 flex flex-col lg:flex-row mt-8 items-center justify-center lg:justify-between">
+      <div className="my-auto">
         <div className="text-center lg:text-left">
           <p className="font-[600] text-[28px]">
             {WelcomeContent.WelcomeMessage}
           </p>
-          <p className="font-[600] text-[40px] text-[#8dced0]">
+          <p className="font-[600] text-[44px] text-[#8dced0]">
             {WelcomeContent.Name}
           </p>
-          <button className="flex gap-2 w-[180px] rounded-[16px] border shadow-md text-[16px] font-[500] px-4  py-2 cursor-pointer">
-            Connect with me
-            <p className="mt-2">
-              {" "}
-              <RedirectPage />
+          <Link href={`https://www.linkedin.com/in/tanvirh103/`}>
+            <button className="relative inline-block gap-2 w-[180px] rounded-[16px] border shadow-md text-[16px] font-[500] px-4 py-2 cursor-pointer">
+            
+         
+            <p className="flex items-center text-center gap-2">
+            Connect with me 
+            <RedirectPage />
             </p>
-          </button>
+            
+            </button>
+            </Link>
         </div>
-      </div>
-      <div className="w-[50%] mt-5 lg:mt-0">
+      </div>    
+      <div className="mt-5 lg:mt-0">
         <div className="flex justify-end">
           <Image
             className="rounded-[12px]"
@@ -43,9 +48,9 @@ export default function Welcome() {
         <div className="flex justify-end">
           <p className="font-[600] text-[24px]  my-4 ">About me</p>
         </div>
-        <div className="flex justify-end ">
+        <div className="flex justify-end">
           <p
-            className="text-[18px] font-[500] flex justify-end"
+            className="text-[18px] font-[500] text-center lg:text-left w-[450px]"
             dangerouslySetInnerHTML={{ __html: WelcomeContent.AboutMe }}
           ></p>
         </div>

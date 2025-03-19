@@ -31,11 +31,11 @@ export default function Navbar() {
         {!isShowSideMenu?(
           <>
           <div className="flex justify-center gap-12">
-        <p className="font-[500] text-[16px]">Home</p>
-        <p className="font-[500] text-[16px]">About</p>
-        <p className="font-[500] text-[16px]">Projects</p>
-        <p className="font-[500] text-[16px]">Experiance</p>
-        <p className="font-[500] text-[16px]">Contact</p>
+        <p className="font-[500] text-[16px] hover:text-[#81baff]">Home</p>
+        <p className="font-[500] text-[16px] hover:text-[#81baff]">About</p>
+        <p className="font-[500] text-[16px] hover:text-[#81baff]">Projects</p>
+        <p className="font-[500] text-[16px] hover:text-[#81baff]">Experiance</p>
+        <p className="font-[500] text-[16px] hover:text-[#81baff]">Contact</p>
         </div>
         <div className="flex justify-end gap-6">
         <Link href={`https://github.com/tanvirh103`}>
