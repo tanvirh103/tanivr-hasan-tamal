@@ -6,7 +6,7 @@ export default function Education() {
         <p className="text-[24px] font-[600] ">Combining academic knowledge</p>
       </div>
     <div className="mt-6 mb-6 items-center flex flex-col md:flex md:flex-col md:items-center lg:items-start">
-        <div className="bg-gradient-to-r from-[#262a36] via-[#373c4e] to-[#181a21]  w-[250px] h-[200px] md:w-[300px] md:h-[200px] lg:w-[550px] lg:h-[140px] rounded-[8px] p-6 cursor-pointer">
+        <div className="bg-gradient-to-r from-[#262a36] via-[#373c4e] to-[#181a21]  w-[250px] h-[200px] md:w-[300px] md:h-[200px] lg:w-[550px] lg:h-[140px] rounded-[8px] p-6 cursor-pointer hover:scale-[1.02] transition-all duration-300 ease-in-out">
           <div className="text-[16px] md:text-[18px] lg:text-[22px] font-[500]">
             BSc. in Computer Science and Engineering
           </div>
@@ -18,7 +18,7 @@ export default function Education() {
           </div>
         </div>
         <div className="border-l-2 border-dashed h-24 mx-1"></div>
-        <div className="bg-gradient-to-r from-[#262a36] via-[#373c4e] to-[#181a21]  w-[250px] h-[200px] md:w-[300px] md:h-[200px] lg:w-[550px] lg:h-[140px] rounded-[8px] p-6">
+        <div className="bg-gradient-to-r from-[#262a36] via-[#373c4e] to-[#181a21]  w-[250px] h-[200px] md:w-[300px] md:h-[200px] lg:w-[550px] lg:h-[140px] rounded-[8px] p-6 hover:scale-[1.02] transition-all duration-300 ease-in-out">
           <div className="text-[16px] md:text-[18px] lg:text-[22px] font-[500]">
           Higher Secondary Certificate
           </div>
@@ -30,7 +30,7 @@ export default function Education() {
           </div>
         </div>
         <div className="border-l-2 border-dashed h-24 mx-1"></div>
-        <div className="bg-gradient-to-r from-[#262a36] via-[#373c4e] to-[#181a21]  w-[250px] h-[200px] md:w-[300px] md:h-[200px] lg:w-[550px] lg:h-[140px] rounded-[8px] p-6">
+        <div className="bg-gradient-to-r from-[#262a36] via-[#373c4e] to-[#181a21]  w-[250px] h-[200px] md:w-[300px] md:h-[200px] lg:w-[550px] lg:h-[140px] rounded-[8px] p-6 hover:scale-[1.02] transition-all duration-300 ease-in-out">
           <div className="text-[16px] md:text-[18px] lg:text-[22px] font-[500]">
           Secondary School Certificate
           </div>
