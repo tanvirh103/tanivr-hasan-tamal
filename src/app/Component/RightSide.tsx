@@ -12868,7 +12868,6 @@ export default function RightSide() {
           </g>
         </g>
       </svg>
-      
     </div>
   );
 }
