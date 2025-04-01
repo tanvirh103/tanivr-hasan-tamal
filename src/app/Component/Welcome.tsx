@@ -16,10 +16,10 @@ export default function Welcome() {
     <div className="max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8 flex flex-col lg:flex-row mt-8 items-center justify-center lg:justify-between">
       <div className="my-auto">
         <div className="text-center lg:text-left">
-          <p className="font-[600] text-[28px]">
+          <p className="font-[600] text-[20px] md:text-[24px] lg:text-[28px]">
             {WelcomeContent.WelcomeMessage}
           </p>
-          <p className="font-[600] text-[44px] text-[#8dced0]">
+          <p className="font-[600] text-[24px] md:text-[36px] lg:text-[] text-[#8dced0]">
             {WelcomeContent.Name}
           </p>
           <Link href={`https://www.linkedin.com/in/tanvirh103/`}>
