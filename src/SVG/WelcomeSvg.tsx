@@ -1,11 +1,11 @@
-export const Github = () => (
+export const Github = ({width,height}:{width?:number,height?:number}) => (
   <svg
     viewBox="0 0 20 20"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     fill="#FFFFFF"
-    width="20"
-    height="20"
+    width={width?width:20}
+    height={height?height:20}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g

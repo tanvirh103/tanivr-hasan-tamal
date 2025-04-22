@@ -23,7 +23,7 @@ export default function Welcome() {
             {WelcomeContent.Name}
           </p>
           <Link href={`https://www.linkedin.com/in/tanvirh103/`}>
-            <button className="relative inline-block gap-2 w-[180px] rounded-[16px] border shadow-md text-[16px] font-[500] px-4 py-2 cursor-pointer">
+            <button className="relative inline-block gap-2 w-[180px] rounded-[16px] border-[#FFFFFF] border-[2px] shadow-md text-[16px] font-[500] px-4 py-2 cursor-pointer">
             
          
             <p className="flex items-center text-center gap-2">
