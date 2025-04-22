@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="">
       <Welcome/>
-      {/* <VerticalTech/> */}
+      <VerticalTech/>
       <Education/>
       <Experience/>
       <Achievements/>

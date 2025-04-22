@@ -30,8 +30,8 @@ export default function Navbar() {
   return (
    
    
-      <div className="sticky top-0 w-full z-50 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8 pt-6 pb-4 bg-[#000000]">
-        <div className="flex justify-between items-center">
+      <div className="sticky top-0 w-full z-50 bg-[#000000]">
+        <div className="flex justify-between items-center max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8 pt-6 pb-4">
           <div className="flex justify-start">
             <p className="font-[600] text-[24px]">Tanvir Hasan Tamal</p>
           </div>
