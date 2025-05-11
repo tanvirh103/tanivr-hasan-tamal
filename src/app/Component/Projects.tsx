@@ -10,7 +10,7 @@ export default function Projects() {
           Projects
         </p>
         <p className="text-[16px] md:text-[20px] lg:text-[24px] font-[600] ">
-          Combining academic knowledge
+        Combining academic insight with practical implementation
         </p>
       </div>
       <div className="grid grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">

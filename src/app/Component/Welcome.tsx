@@ -21,8 +21,8 @@ export default function Welcome() {
           <p className="font-[600] text-[24px] md:text-[36px] lg:text-[] text-[#8dced0]">
             {WelcomeContent.Name}
           </p>
-          <Link 
-            href="/Resume_of_Tanvir_Hasan_Tamal.pdf" 
+          <Link
+            href="/Resume_of_Tanvir_Hasan_Tamal.pdf"
             target="_blank"
             className="relative inline-block gap-2 rounded-[16px] border-[#FFFFFF] border-[2px] shadow-md text-[16px] font-[500] px-2 py-2 cursor-pointer"
           >
@@ -40,7 +40,11 @@ export default function Welcome() {
             src={"/Tanvir.jpg"}
             width={300}
             height={300}
-            alt={"picture of tanvir hasan tamal"}
+            alt="Picture of Tanvir Hasan Tamal"
+            priority={true} // or priority if this is above the fold
+            //placeholder="blur" // add if you have a blurDataURL
+            quality={85} // default is 75, adjust based on needs
+            sizes="(max-width: 768px) 100vw, 300px" // responsive sizing
           />
         </div>
         <div className="flex justify-end">

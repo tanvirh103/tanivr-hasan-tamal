@@ -7,10 +7,12 @@ import {
   CodeForces,
 } from "@/SVG/WelcomeSvg";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 
 export default function MobileMenu({ setShow }: { setShow: any }) {
   const modalRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
   useEffect(() => {
     function handleClickOutside(event: any) {
       if (modalRef.current && !modalRef.current.contains(event.target)) {
@@ -22,6 +24,11 @@ export default function MobileMenu({ setShow }: { setShow: any }) {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [setShow]);
+
+  const handleClick = (event: any) => {
+    router.push(event);
+    setShow(false);
+  };
   return (
     <div
       ref={modalRef}
@@ -44,19 +51,19 @@ export default function MobileMenu({ setShow }: { setShow: any }) {
         </div>
         <div className="items-center text-center mt-6">
           <div className="border-[#28282B]  border-2 rounded-[8px] shadow-2xl font-[500] text-[16px] my-2 hover:shadow-2xl">
-            Home
+            <div onClick={() => handleClick("#Home")}>Home</div>
           </div>
           <div className="border-[#28282B]  border-2 rounded-[8px] shadow-2xl font-[500] text-[16px] my-2">
-            About
+            <div onClick={() => handleClick("#Education")}>Education</div>
           </div>
           <div className="border-[#28282B]  border-2 rounded-[8px] shadow-2xl font-[500] text-[16px] my-2">
-            Projects
+            <div onClick={() => handleClick("#Projects")}>Projects</div>
           </div>
           <div className="border-[#28282B]  border-2 rounded-[8px] shadow-2xl font-[500] text-[16px] my-2">
-            Experiance
+            <div onClick={() => handleClick("#Experience")}>Experience</div>
           </div>
           <div className="border-[#28282B]  border-2 rounded-[8px] shadow-2xl font-[500] text-[16px] my-2">
-            Contact
+            <div onClick={() => handleClick("#Achievements")}>Achievements</div>
           </div>
 
           <div className="flex justify-center  gap-4 mt-12">
@@ -65,7 +72,10 @@ export default function MobileMenu({ setShow }: { setShow: any }) {
                 <Github />
               </p>
             </Link>
-            <Link href={`https://www.linkedin.com/in/tanvirh103/`} target="_blank">
+            <Link
+              href={`https://www.linkedin.com/in/tanvirh103/`}
+              target="_blank"
+            >
               <p>
                 <LinkendIn />
               </p>
@@ -80,7 +90,10 @@ export default function MobileMenu({ setShow }: { setShow: any }) {
                 <Facebook />
               </p>
             </Link>
-            <Link href={`https://codeforces.com/profile/tanvirh103`} target="_blank">
+            <Link
+              href={`https://codeforces.com/profile/tanvirh103`}
+              target="_blank"
+            >
               <p>
                 <CodeForces />
               </p>
