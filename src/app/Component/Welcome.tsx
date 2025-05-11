@@ -37,13 +37,14 @@ export default function Welcome() {
         <div className="flex justify-end">
           <Image
             className="rounded-[12px]"
-            src={"/tanvir.jpg"}
+            src={'/tanvir.jpg'}
             width={300}
             height={300}
             alt="Picture of Tanvir Hasan Tamal"
             priority={true}
             quality={85}
             sizes="(max-width: 768px) 100vw, 300px"
+            unoptimized={true}
           />
         </div>
         <div className="flex justify-end">
