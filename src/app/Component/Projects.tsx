@@ -67,9 +67,9 @@ export default function Projects() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center items-center mt-6 mb-6">
+      {/* <div className="flex justify-center items-center mt-6 mb-6">
         <p className="flex items-center font-[500] text-[14px] md:text-[16px] lg:text-[20px] w-[250px] h-auto rounded-full border-[#FFFFFF] border-[2px] px-8 py-2 gap-2">Show all projects <RedirectPage /></p>
-      </div>
+      </div> */}
     </div>
   );
 }
