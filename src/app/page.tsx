@@ -4,6 +4,7 @@ import Experience from "./Component/Experience";
 import Achievements from "./Component/Achievements";
 import Projects from "./Component/Projects";
 import Footer from "./Component/Footer";
+import VerticalTech from "./Component/Skills";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <section id="Home">
       <Welcome/>
       </section>
-      {/* <VerticalTech/> */}
+       <VerticalTech/>
       <section id="Education">
       <Education/>
       </section>
