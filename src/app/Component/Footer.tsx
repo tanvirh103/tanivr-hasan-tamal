@@ -13,7 +13,8 @@ export default function Footer() {
     <footer className="border-t-1 border-[#1E1E1E]">
       <div className="pt-4 pb-4 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8">
         <div className="flex justify-between">
-          <div>
+          <div className="flex items-center">
+    
             <div className="font-[600] text-[16px] md:text-[18px] lg:text-[20px]">
               Tanvir Hasan Tamal
             </div>
