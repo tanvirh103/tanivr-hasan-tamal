@@ -37,7 +37,7 @@ export default function Welcome() {
         <div className="flex justify-end">
           <Image
             className="rounded-[12px]"
-            src={"/Tanvir.jpg"}
+            src={"/tanvir.jpg"}
             width={300}
             height={300}
             alt="Picture of Tanvir Hasan Tamal"
