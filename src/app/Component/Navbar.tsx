@@ -28,38 +28,38 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-[#000000] ">      
-    <div className="flex justify-between items-center px-2 w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto pt-4 pb-4">
+    <div className="sticky top-0 z-50 bg-[#000000] ">
+      <div className="flex justify-between items-center px-2 w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto pt-4 pb-4">
         <div className="flex justify-start">
           <p className="font-[600] text-[24px]">Tanvir Hasan Tamal</p>
         </div>
-         {!isShowSideMenu ? (
-          <> 
+        {!isShowSideMenu ? (
+          <>
             <div className="flex justify-center gap-12">
-              <Link href={'#Home'}>
-              <p className="font-[500] text-[16px] hover:text-[#81baff]">
-                Home
-              </p>
+              <Link href={"#Home"}>
+                <p className="font-[500] text-[16px] hover:text-[#81baff]">
+                  Home
+                </p>
               </Link>
-              <Link href={'#Education'}>
-              <p className="font-[500] text-[16px] hover:text-[#81baff]">
-                Education
-              </p>
+              <Link href={"#Education"}>
+                <p className="font-[500] text-[16px] hover:text-[#81baff]">
+                  Education
+                </p>
               </Link>
-              <Link href={'#Projects'}>
-              <p className="font-[500] text-[16px] hover:text-[#81baff]">
-                Projects
-              </p>
+              <Link href={"#Projects"}>
+                <p className="font-[500] text-[16px] hover:text-[#81baff]">
+                  Projects
+                </p>
               </Link>
-              <Link href={'#Experience'}>
-              <p className="font-[500] text-[16px] hover:text-[#81baff]">
-              Experience
-              </p>
+              <Link href={"#Experience"}>
+                <p className="font-[500] text-[16px] hover:text-[#81baff]">
+                  Experience
+                </p>
               </Link>
-              <Link href={'#Achievements'}>
-              <p className="font-[500] text-[16px] hover:text-[#81baff]">
-                Achievements
-              </p>
+              <Link href={"#Achievements"}>
+                <p className="font-[500] text-[16px] hover:text-[#81baff]">
+                  Achievements
+                </p>
               </Link>
             </div>
             <div className="flex justify-end gap-6">
@@ -90,8 +90,8 @@ export default function Navbar() {
                 </p>
               </Link>
             </div>
-           </>
-         ) : (
+          </>
+        ) : (
           <div
             onClick={() => {
               setShowMenu(true);
@@ -101,7 +101,7 @@ export default function Navbar() {
           </div>
         )}
       </div>
-      {isShowMenu && <MobileMenu setShow={setShowMenu} />} 
+      {isShowMenu && <MobileMenu setShow={setShowMenu} />}
     </div>
   );
 }

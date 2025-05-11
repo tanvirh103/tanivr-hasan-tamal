@@ -65,7 +65,10 @@ export default function Footer() {
             <Link href="https://github.com/tanvirh103" target="_blank">
               <Github />
             </Link>
-            <Link href="https://www.linkedin.com/in/tanvirh103/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/tanvirh103/"
+              target="_blank"
+            >
               <LinkendIn />
             </Link>
             <Link href="mailto:tanvirh103@gmail.com">

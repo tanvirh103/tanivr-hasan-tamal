@@ -35,17 +35,13 @@ export default function Welcome() {
       </div>
       <div className="mt-5 lg:mt-0">
         <div className="flex justify-end">
-         
-<Image
-  className="rounded-[12px]"
-  src="/tanvir.jpg"
-  width={300}
-  height={300}
-  alt="Picture of Tanvir Hasan Tamal"
-  quality={85}
-  sizes="(max-width: 768px) 100vw, 300px"
-  unoptimized
-/>
+          <img
+            className="rounded-[12px]"
+            src="/tanvir.jpg"
+            width={300}
+            height={300}
+            alt="Picture of Tanvir Hasan Tamal"
+          />
         </div>
         <div className="flex justify-end">
           <p className="font-[600] text-[18px] md:text-[20px] lg:text-[24px]  my-4 ">

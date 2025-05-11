@@ -8,7 +8,7 @@ export default function Achievements() {
           Achievements
         </p>
         <p className="text-[16px] md:text-[20px] lg:text-[24px] font-[600] ">
-        Combining consistent effort with measurable success
+          Combining consistent effort with measurable success
         </p>
       </div>
       <div className="grid grid-cols-[repeat(auto-fill,_minmax(350px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">

@@ -10,7 +10,7 @@ export default function Projects() {
           Projects
         </p>
         <p className="text-[16px] md:text-[20px] lg:text-[24px] font-[600] ">
-        Combining academic insight with practical implementation
+          Combining academic insight with practical implementation
         </p>
       </div>
       <div className="grid grid-cols-[repeat(auto-fill,_minmax(350px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">
@@ -22,21 +22,26 @@ export default function Projects() {
             <p className="flex items-center gap-2 font-[500] text-[14px] md:text-[16px] lg:text-[20px]">
               {item.title}
               <span className="w-[36px] h-[36px] rounded-[8px] border-[#537177] items-center flex justify-center hover:border-1 ">
-                <Link href={item.github}><Github width={28} height={28}/> </Link>
+                <Link href={item.github}>
+                  <Github width={28} height={28} />{" "}
+                </Link>
               </span>
             </p>
             <div className="flex gap-2 flex-wrap mt-4">
-            {item.skills.map((skill, index) => (
-                <div key={index} className="bg-[#3c545e] rounded-[8px] flex items-center justify-start px-2 py-2">
-                <p className="text-[14px] font-[500]">{skill}</p>
+              {item.skills.map((skill, index) => (
+                <div
+                  key={index}
+                  className="bg-[#3c545e] rounded-[8px] flex items-center justify-start px-2 py-2"
+                >
+                  <p className="text-[14px] font-[500]">{skill}</p>
                 </div>
-            ))}
+              ))}
             </div>
             <p className="font-[500] text-[12px] md:text-[14px] lg:text-[16px] mt-2">
-                {item.description.length > 150
+              {item.description.length > 150
                 ? `${item.description.slice(0, 150)}...`
                 : item.description}
-                {/* {item.description.length > 200 ? (
+              {/* {item.description.length > 200 ? (
                   <>
                     {item.description.slice(0, 200)}...
                     <button
@@ -63,7 +68,6 @@ export default function Projects() {
                   item.description
                 )} */}
             </p>
-              
           </div>
         ))}
       </div>

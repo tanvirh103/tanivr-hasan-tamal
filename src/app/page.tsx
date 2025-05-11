@@ -10,22 +10,22 @@ export default function Home() {
   return (
     <div className="">
       <section id="Home">
-      <Welcome/>
+        <Welcome />
       </section>
-       {/* <VerticalTech/>  */}
-       <section id="Education">
-      <Education/>
+      <VerticalTech />
+      <section id="Education">
+        <Education />
       </section>
-     <section id="Experience">
-      <Experience/>
+      <section id="Experience">
+        <Experience />
       </section>
-       <section id="Achievements">
-      <Achievements/>
+      <section id="Achievements">
+        <Achievements />
       </section>
       <section id="Projects">
-      <Projects/>
+        <Projects />
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
