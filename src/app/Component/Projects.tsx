@@ -13,7 +13,7 @@ export default function Projects() {
         Combining academic insight with practical implementation
         </p>
       </div>
-      <div className="grid grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">
+      <div className="grid grid-cols-[repeat(auto-fill,_minmax(350px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">
         {ProjectContent.slice(0, 6).map((item, index) => (
           <div
             key={index}

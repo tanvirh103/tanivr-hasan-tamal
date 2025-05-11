@@ -28,13 +28,13 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-[#000000]">
-      <div className="flex justify-between items-center px-4 2xl:px-12 lg:px-8 pt-4 pb-4 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto ">
+    <div className="sticky top-0 z-50 bg-[#000000] ">      
+    <div className="flex justify-between items-center px-2 w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto pt-4 pb-4">
         <div className="flex justify-start">
           <p className="font-[600] text-[24px]">Tanvir Hasan Tamal</p>
         </div>
-        {!isShowSideMenu ? (
-          <>
+         {!isShowSideMenu ? (
+          <> 
             <div className="flex justify-center gap-12">
               <Link href={'#Home'}>
               <p className="font-[500] text-[16px] hover:text-[#81baff]">
@@ -90,8 +90,8 @@ export default function Navbar() {
                 </p>
               </Link>
             </div>
-          </>
-        ) : (
+           </>
+         ) : (
           <div
             onClick={() => {
               setShowMenu(true);
@@ -101,7 +101,7 @@ export default function Navbar() {
           </div>
         )}
       </div>
-      {isShowMenu && <MobileMenu setShow={setShowMenu} />}
+      {isShowMenu && <MobileMenu setShow={setShowMenu} />} 
     </div>
   );
 }

@@ -12,14 +12,14 @@ export default function Home() {
       <section id="Home">
       <Welcome/>
       </section>
-       <VerticalTech/>
-      <section id="Education">
+       {/* <VerticalTech/>  */}
+       <section id="Education">
       <Education/>
       </section>
-      <section id="Experience">
+     <section id="Experience">
       <Experience/>
       </section>
-      <section id="Achievements">
+       <section id="Achievements">
       <Achievements/>
       </section>
       <section id="Projects">

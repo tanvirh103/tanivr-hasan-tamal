@@ -29,30 +29,3 @@ body {
 }
 
 
-/* .custom-layout {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-}
-
-@media (min-width: 1024px) {
-  .custom-layout {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .custom-layout {
-    max-width: 1800px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .custom-layout {
-    max-width: 2200px;
-  }
-} */

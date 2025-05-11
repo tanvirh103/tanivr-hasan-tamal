@@ -11,7 +11,7 @@ export default function Achievements() {
         Combining consistent effort with measurable success
         </p>
       </div>
-      <div className="grid grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">
+      <div className="grid grid-cols-[repeat(auto-fill,_minmax(350px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">
         {AchievementsContent.Award.map((exp, index) => (
           <div
             key={index}
