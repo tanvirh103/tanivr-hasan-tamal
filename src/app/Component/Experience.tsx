@@ -2,7 +2,7 @@ import { Experiences } from "../Content/Experiance";
 
 export default function Experience() {
   return (
-    <div className="pt-6 pb-6 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8">
+    <div className="pt-6 pb-6 max-w-full lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8">
       <div className="items-center text-center pt-4">
         <p className="text-[24px] md:text-[36px] lg:text-[40px] font-[600] text-[#8dced0]">
           Experience
@@ -18,8 +18,8 @@ export default function Experience() {
       </div>
       <div className="pb-6">
         <div className="bg-[#81baff] rounded-full w-5 h-5 relative mt-6"></div>
-        <div className="border-l-2 border-l-inherit h-60 lg:h-44 mx-2">
-          <div className="-mt-[22px] w-[400px] md:w-[600px] lg:w-[700px]">
+        <div className="border-l-2 border-l-inherit h-auto min-h-[12rem] lg:min-h-[11rem] mx-2">
+          <div className="-mt-[22px] max-w-full md:w-[600px] lg:w-[700px]">
             <p className="font-[500] text-[18px] lg:text-[20px] ml-4 ">
               Deepchain Labs
             </p>
@@ -46,7 +46,7 @@ export default function Experience() {
           Volunteer Experience
         </p>
       </div>
-      <div className="grid grid-cols-[repeat(auto-fill,_minmax(350px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))]  gap-4 pt-6 pb-6 w-full">
+      <div className="grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] sm:grid-cols-[repeat(auto-fill,_minmax(320px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(380px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] xl:grid-cols-[repeat(auto-fill,_minmax(500px,_1fr))] gap-4 pt-6 pb-6 w-full">
         {Experiences.VolunteerExp.map((exp, index) => (
           <div
             key={index}

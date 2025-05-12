@@ -13,7 +13,7 @@ export default function Projects() {
           Combining academic insight with practical implementation
         </p>
       </div>
-      <div className="grid grid-cols-[repeat(auto-fill,_minmax(350px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">
+      <div className="grid grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))] sm:grid-cols-[repeat(auto-fill,_minmax(320px,_1fr))] md:grid-cols-[repeat(auto-fill,_minmax(380px,_1fr))] lg:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] xl:grid-cols-[repeat(auto-fill,_minmax(450px,_1fr))] gap-4 pt-6 pb-6 w-full">
         {ProjectContent.slice(0, 6).map((item, index) => (
           <div
             key={index}
@@ -33,11 +33,13 @@ export default function Projects() {
                   key={index}
                   className="bg-[#3c545e] rounded-[8px] flex items-center justify-start px-2 py-2"
                 >
-                  <p className="text-[14px] font-[500]">{skill}</p>
+                  <p className="text-[12px] md:text-[14px] lg:text-[16px] xl:text-[16px] font-[500]">
+                    {skill}
+                  </p>
                 </div>
               ))}
             </div>
-            <p className="font-[500] text-[12px] md:text-[14px] lg:text-[16px] mt-2">
+            <p className="font-[500] text-[12px] md:text-[14px] lg:text-[16px] xl:text-[16px] mt-2">
               {item.description.length > 150
                 ? `${item.description.slice(0, 150)}...`
                 : item.description}

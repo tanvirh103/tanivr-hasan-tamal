@@ -4,7 +4,7 @@ import RightSide from "./RightSide";
 
 export default function VerticalTech() {
   return (
-    <div className="pt-8 pb-8">
+    <div className="pt-8 pb-8 max-w-full">
       <div className="items-center text-center">
         <p className="text-[24px] md:text-[36px] lg:text-[40px] font-[600] text-[#8dced0]">
           Skills & Tech Stacks
