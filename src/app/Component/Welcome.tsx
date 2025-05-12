@@ -37,7 +37,7 @@ export default function Welcome() {
           <div className="w-full max-w-[300px] px-4">
             <Image
               className="rounded-[12px] w-full h-auto"
-              src="/tanvir.jpg"
+              src="/tanivr-hasan-tamal/tanvir.jpg"
               width={300}
               height={300}
               alt="Tanvir Hasan Tamal"
