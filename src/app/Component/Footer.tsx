@@ -24,11 +24,15 @@ export default function Footer() {
           <p className="font-[500] text-[16px]">Sent Email</p>
           <p className="font-[500] text-[14px] flex items-center gap-1">
             <Mail />
+            <Link href="mailto:tanvirh103@gmail.com">
             tanvirh103@gmail.com
+            </Link>
           </p>
           <p className="font-[500] text-[14px] flex items-center gap-1">
             <Mail />
+            <Link href="mailto:">
             thasan103@yahoo.com
+            </Link>
           </p>
         </div>
 
@@ -37,7 +41,10 @@ export default function Footer() {
           <p className="font-[500] text-[16px]">Make a call</p>
           <p className="font-[500] text-[14px] flex items-center gap-1">
             <PhoneIcon />
-            +8801534103985
+            <Link href="tel:" target="_blank">
+              +8801534103985
+            </Link>
+ 
           </p>
           <p className="font-[500] text-[14px] flex items-center gap-1">
             <Whatsapp />

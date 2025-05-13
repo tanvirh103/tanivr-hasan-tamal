@@ -18,7 +18,7 @@ export default function VerticalTech() {
           pauseOnHover
           gradientWidth={100}
           gradient
-          gradientColor="#101010"
+          gradientColor="#020202"
           speed={30}
         >
           <HorizontalTech />
@@ -29,7 +29,7 @@ export default function VerticalTech() {
           pauseOnHover
           gradientWidth={100}
           gradient
-          gradientColor="#101010"
+          gradientColor="#020202"
           speed={30}
         >
           <RightSide />
