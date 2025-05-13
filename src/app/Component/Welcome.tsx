@@ -33,7 +33,7 @@ export default function Welcome() {
         </div>
       </div>
       <div className="mt-5 lg:mt-0">
-        <div className="flex justify-end">
+        <div className="flex justify-center lg:justify-end xl:justify-end">
           <div className="w-full max-w-[300px] px-4">
             <Image
               className="rounded-[12px] w-full h-auto"
