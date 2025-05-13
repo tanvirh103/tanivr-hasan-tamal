@@ -12741,6 +12741,7 @@ export default function RightSide() {
         ></path>
       </svg>
       <svg
+        className="mr-12"
         width="100"
         height="100"
         viewBox="0 0 100 100"

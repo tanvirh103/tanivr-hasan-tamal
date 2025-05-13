@@ -16,7 +16,7 @@ export const Experiences = {
       describtion: "",
     },
     {
-      title: "Patrol Leader Training Cammp",
+      title: "Patrol Leader Training Camp",
       date: "2016",
       describtion: "",
     },
