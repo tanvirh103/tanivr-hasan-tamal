@@ -23,25 +23,27 @@ export const ProjectContent=[
         skills:[ "Next.js"," PostgreSQL"," TypeScript"," TypeORM ","NestJS"],
         description:"Developed DCLScan Explorer - A real-time blockchain monitoring tool that allows users to track network activities, view transaction details, and inspect blocks/accounts.",
         github:"https://facebook.com"
-    },{
+    },
+    {
         id:5,
+        title:"iMBD",
+        skills:["HTML5","CSS","PHP","MySQL","AJAX"],
+        description:"This is a group project of 4 people. A website where users can rate/review/purchase movies or tv shows and many more",
+        github:"https://github.com/Borshon1017/iMBD"
+    },
+    {
+        id:6,
         title:"Ecommerce",
-        skills:["HTML5","CSS","PHP","MySQL"],
+        skills:["HTML5","CSS","PHP","MySQL","AJAX"],
         description:"Developed a fully functional e-commerce platform where users can register, browse products, and make purchases securely. The admin (owner) panel includes features to upload new products, manage inventory, delete items, and view detailed sales history and order information. The system ensures seamless interaction between users and the platform while providing owners with full control over store operations.",
         github:"https://github.com/tanvirh103/ecommerce"
     },
     {
-        id:6,
+        id:7,
         title:"Game Stop",
-        skills:["HTML5","CSS","PHP","MySQL"],
+        skills:["HTML5","CSS","PHP","MySQL","AJAX"],
         description:"GameStop Built a niche e-commerce website focused on selling PC and gaming-related products. Users can register, browse, and purchase items, while the admin can upload new products, manage inventory, track sales, and view order histories. Designed to offer a streamlined experience for both gamers and store owners.",
         github:"https://github.com/tanvirh103/GameStop"
     },
-    {
-        id:7,
-        title:"iMBD",
-        skills:["HTML5","CSS","PHP","MySQL"],
-        description:"This is a group project of 4 people. A website where users can rate/review/purchase movies or tv shows and many more",
-        github:"https://github.com/Borshon1017/iMBD"
-    }
+    
 ]

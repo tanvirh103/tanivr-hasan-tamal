@@ -35,7 +35,7 @@ export default function Experience() {
             </p>
             <p className="font-[500] text-[16px] ml-4 py-1">
               - Led backend development for Calendar and Teams modules and
-              contributed to frontend integration across 10+ key modules
+              contributed to frontend development & integration across 10+ key modules
               including Payroll, Forms, and Organization Settings.
             </p>
           </div>

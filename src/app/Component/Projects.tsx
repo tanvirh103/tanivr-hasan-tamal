@@ -22,7 +22,7 @@ export default function Projects() {
             <p className="flex items-center gap-2 font-[500] text-[14px] md:text-[16px] lg:text-[20px]">
               {item.title}
               <span className="w-[36px] h-[36px] rounded-[8px] border-[#537177] items-center flex justify-center hover:border-1 ">
-                <Link href={item.github}>
+                <Link href={item.github} target="_blank">
                   <Github width={28} height={28} />{" "}
                 </Link>
               </span>
