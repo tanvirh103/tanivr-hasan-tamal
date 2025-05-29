@@ -46,14 +46,14 @@ export default function Welcome() {
             />
           </div>
         </div>
-        <div className="flex justify-end px-4">
+        <div className="flex justify-center lg:justify-end xl:justify-end px-4">
           <p className="font-[600] text-[18px] md:text-[20px] lg:text-[24px]  my-4">
             About me
           </p>
         </div>
         <div className="flex justify-end px-4">
           <p
-            className="text-[16px] md:text-[18px] lg:text-[18px] font-[500] text-center lg:text-left max-w-full md:w-[400px] sm:w-[370px] lg:w-[450px]"
+            className="text-[16px] md:text-[18px] lg:text-[18px] font-[500] lg:text-left flex text-justify md:w-[450px] sm:w-[380px] lg:w-[500px]"
             dangerouslySetInnerHTML={{ __html: WelcomeContent.AboutMe }}
           ></p>
         </div>
