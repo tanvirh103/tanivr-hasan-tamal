@@ -7,6 +7,7 @@ import {
   LinkendIn,
   Mail,
   RedirectPage,
+  Whatsapp,
 } from "@/SVG/WelcomeSvg";
 import Link from "next/link";
 import RotatingMessage from "./Message";
@@ -16,9 +17,10 @@ export default function Welcome() {
     <div className="pt-4 pb-6 2xl:px-12 lg:px-8 max-w-full lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto flex flex-col lg:flex-row mt-8 items-center justify-center lg:justify-between">
       <div className="my-auto">
         <div className="text-center lg:text-left my-4">
-          <RotatingMessage/>
+          <RotatingMessage />
           <p className="font-[600] text-[24px] md:text-[36px] lg:text-[36px] text-[#8dced0]">
-            <span>{WelcomeContent.WelcomeMessage+" "}</span>{WelcomeContent.Name}
+            <span>{WelcomeContent.WelcomeMessage + " "}</span>
+            {WelcomeContent.Name}
           </p>
           <Link
             href="/Resume_of_Tanvir_Hasan_Tamal.pdf"
@@ -58,29 +60,40 @@ export default function Welcome() {
           ></p>
         </div>
         <div className="flex justify-end gap-4 mt-6 px-4">
-          <Link href={`https://github.com/tanvirh103`}>
+          <Link href={`https://github.com/tanvirh103`} target="_blank">
             <p>
               <Github />
             </p>
           </Link>
-          <Link href={`https://www.linkedin.com/in/tanvirh103/`}>
+          <Link
+            href={`https://www.linkedin.com/in/tanvirh103/`}
+            target="_blank"
+          >
             <p>
               <LinkendIn />
             </p>
           </Link>
-          <Link href={`mailto:tanvirh103@gmail.com`}>
+          <Link href={`mailto:tanvirh103@gmail.com`} target="_blank">
             <p>
               <Mail />
             </p>
           </Link>
-          <Link href={`https://www.facebook.com/tanvirh103/`}>
+          <Link href={`https://www.facebook.com/tanvirh103/`} target="_blank">
             <p>
               <Facebook />
             </p>
           </Link>
-          <Link href={`https://codeforces.com/profile/tanvirh103`}>
+          <Link
+            href={`https://codeforces.com/profile/tanvirh103`}
+            target="_blank"
+          >
             <p>
               <CodeForces />
+            </p>
+          </Link>
+          <Link href="https://wa.me/+8801534103985" target="_blank">
+            <p>
+              <Whatsapp width={20} height={20} />
             </p>
           </Link>
         </div>

@@ -5,6 +5,7 @@ import {
   LinkendIn,
   Mail,
   MobileMenuIcon,
+  Whatsapp
 } from "@/SVG/WelcomeSvg";
 import Link from "next/link";
 import { useState } from "react";
@@ -32,7 +33,6 @@ export default function Navbar() {
           )}
         </div>
 
-     
         <div className="hidden lg:flex justify-end gap-6">
           <Link href={`https://github.com/tanvirh103`} target="_blank">
             <Github />
@@ -49,9 +49,11 @@ export default function Navbar() {
           <Link href={`https://www.facebook.com/tanvirh103/`} target="_blank">
             <Facebook />
           </Link>
+          <Link href="https://wa.me/+8801534103985" target="_blank">
+            <Whatsapp width={20} height={20} />
+          </Link>
         </div>
 
-       
         <div className="block lg:hidden" onClick={() => setShowMenu(true)}>
           <MobileMenuIcon />
         </div>
