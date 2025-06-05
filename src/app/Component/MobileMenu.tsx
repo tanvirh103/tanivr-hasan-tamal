@@ -5,6 +5,7 @@ import {
   Mail,
   Facebook,
   CodeForces,
+  Whatsapp,
 } from "@/SVG/WelcomeSvg";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -98,6 +99,11 @@ export default function MobileMenu({ setShow }: { setShow: any }) {
                 <CodeForces />
               </p>
             </Link>
+            <Link href="https://wa.me/+8801534103985" target="_blank">
+            <p>
+              <Whatsapp width={20} height={20} />
+            </p>
+          </Link>
           </div>
         </div>
       </div>

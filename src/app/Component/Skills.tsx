@@ -19,7 +19,7 @@ export default function VerticalTech() {
           gradientWidth={100}
           gradient
           gradientColor="#020202"
-          speed={30}
+          speed={40}
         >
           <HorizontalTech />
         </Marquee>
@@ -30,7 +30,7 @@ export default function VerticalTech() {
           gradientWidth={100}
           gradient
           gradientColor="#020202"
-          speed={30}
+          speed={40}
         >
           <RightSide />
         </Marquee>

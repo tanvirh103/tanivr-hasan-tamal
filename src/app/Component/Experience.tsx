@@ -19,13 +19,13 @@ export default function Experience() {
       <div className="pb-6">
         <div className="bg-[#81baff] rounded-full w-5 h-5 relative mt-6"></div>
         <div className="border-l-2 border-l-inherit h-auto min-h-[12rem] lg:min-h-[11rem] mx-2">
-          <div className="-mt-[22px] max-w-full md:w-[600px] lg:w-[700px]">
+          <div className="-mt-[22px] max-w-full md:w-[600px] lg:w-[700px] text-justify">
             <p className="font-[500] text-[18px] lg:text-[20px] ml-4 ">
               Deepchain Labs
             </p>
             <p className="font-[500] text-[16px] ml-4 py-1">
               {" "}
-              Software Engineer Trainee
+              Software Engineer Trainee (Remote)
             </p>
             <p className="font-[500] text-[16px] ml-4 py-1">
               {" "}

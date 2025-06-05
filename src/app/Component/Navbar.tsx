@@ -24,7 +24,15 @@ export default function Navbar() {
         <div className="hidden lg:flex justify-center gap-12">
           {["Home", "Education", "Projects", "Experience", "Achievements"].map(
             (item) => (
-              <Link key={item} href={`#${item}`}>
+              <Link 
+                key={item} 
+                href={`#${item}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.getElementById(item);
+                  element?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 <p className="font-[500] text-[16px] hover:text-[#81baff]">
                   {item}
                 </p>
@@ -34,7 +42,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden lg:flex justify-end gap-6">
-          <Link href={`https://github.com/tanvirh103`} target="_blank">
+          <Link href={`https://github.com/tanvirh103`} target="_blank" >
             <Github />
           </Link>
           <Link
