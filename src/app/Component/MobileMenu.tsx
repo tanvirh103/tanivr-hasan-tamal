@@ -66,7 +66,6 @@ export default function MobileMenu({ setShow }: { setShow: any }) {
           <div className="border-[#28282B]  border-2 rounded-[8px] shadow-2xl font-[500] text-[16px] my-2">
             <div onClick={() => handleClick("#Achievements")}>Achievements</div>
           </div>
-
           <div className="flex justify-center  gap-4 mt-12">
             <Link href={`https://github.com/tanvirh103`} target="_blank">
               <p>

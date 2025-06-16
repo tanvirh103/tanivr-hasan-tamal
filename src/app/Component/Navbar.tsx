@@ -13,7 +13,6 @@ import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   const [isShowMenu, setShowMenu] = useState(false);
-
   return (
     <div className="sticky top-0 z-50 bg-[#000000] max-w-full">
       <div className="flex justify-between items-center px-2 max-w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto pt-4 pb-4">
@@ -40,7 +39,6 @@ export default function Navbar() {
             )
           )}
         </div>
-
         <div className="hidden lg:flex justify-end gap-6">
           <Link href={`https://github.com/tanvirh103`} target="_blank" >
             <Github />
@@ -61,12 +59,10 @@ export default function Navbar() {
             <Whatsapp width={20} height={20} />
           </Link>
         </div>
-
         <div className="block lg:hidden" onClick={() => setShowMenu(true)}>
           <MobileMenuIcon />
         </div>
       </div>
-
       {isShowMenu && <MobileMenu setShow={setShowMenu} />}
     </div>
   );

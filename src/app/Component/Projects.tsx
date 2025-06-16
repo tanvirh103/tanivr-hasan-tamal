@@ -43,39 +43,10 @@ export default function Projects() {
               {item.description.length > 150
                 ? `${item.description.slice(0, 150)}...`
                 : item.description}
-              {/* {item.description.length > 200 ? (
-                  <>
-                    {item.description.slice(0, 200)}...
-                    <button
-                      className="text-blue-500 ml-2"
-                      onClick={() => {
-                        const fullDescription = document.getElementById(`desc-${index}`);
-                        if (fullDescription) {
-                          fullDescription.style.display = "block";
-                        }
-                        const seeMoreButton = document.getElementById(`see-more-${index}`);
-                        if (seeMoreButton) {
-                          seeMoreButton.style.display = "none";
-                        }
-                      }}
-                      id={`see-more-${index}`}
-                    >
-                      See more
-                    </button>
-                    <span id={`desc-${index}`} style={{ display: "none" }}>
-                      {item.description.slice(200)}
-                    </span>
-                  </>
-                ) : (
-                  item.description
-                )} */}
             </p>
           </div>
         ))}
       </div>
-      {/* <div className="flex justify-center items-center mt-6 mb-6">
-        <p className="flex items-center font-[500] text-[14px] md:text-[16px] lg:text-[20px] w-[250px] h-auto rounded-full border-[#FFFFFF] border-[2px] px-8 py-2 gap-2">Show all projects <RedirectPage /></p>
-      </div> */}
     </div>
   );
 }
