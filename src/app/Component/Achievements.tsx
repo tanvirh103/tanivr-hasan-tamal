@@ -7,7 +7,7 @@ export default function Achievements() {
         <p className="text-[24px] md:text-[36px] lg:text-[40px] font-[600] text-[#8dced0]">
           Achievements
         </p>
-        <p className="text-[16px] md:text-[20px] lg:text-[24px] font-[600] ">
+        <p className="text-[16px] md:text-[20px] lg:text-[24px] font-[600]">
           Combining consistent effort with measurable success
         </p>
       </div>
