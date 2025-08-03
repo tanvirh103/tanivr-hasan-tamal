@@ -11,15 +11,15 @@ export default function Experience() {
           Combining hand - on industry experience and volunteer experience
         </p>
       </div>
-      <div className="pt-4">
+      <div className="pt-4 pb-2">
         <p className="font-[600] text-[18px] md:text-[20px] lg:text-[24px]">
           Work Experience
         </p>
       </div>
-      <div className="pb-6">
-        <div className="bg-[#81baff] rounded-full w-5 h-5 relative mt-6"></div>
+      <div className="pb-4 relative">
         <div className="border-l-2 border-l-inherit h-auto min-h-[12rem] lg:min-h-[11rem] mx-2">
-          <div className="-mt-[22px] max-w-full md:w-[600px] lg:w-[700px] text-justify">
+          <hr className="bg-[#81baff] rounded-full w-5 h-5 absolute  left-1 -translate-x-1 mt-1" />
+          <div className="max-w-full md:w-[600px] lg:w-[700px] text-justify">
             <p className="font-[500] text-[18px] lg:text-[20px] ml-4 ">
               Deepchain Labs
             </p>
@@ -35,8 +35,28 @@ export default function Experience() {
             </p>
             <p className="font-[500] text-[16px] ml-4 py-1">
               - Led backend development for Calendar and Teams modules and
-              contributed to frontend development & integration across 10+ key modules
-              including Payroll, Forms, and Organization Settings.
+              contributed to frontend development & integration across 10+ key
+              modules including Payroll, Forms, and Organization Settings.
+            </p>
+          </div>
+          <hr className="bg-[#81baff] rounded-full w-5 h-5 absolute left-1 -translate-x-1 mt-6" />
+          <div className="max-w-full md:w-[600px] lg:w-[700px] text-justify mt-5">
+            <p className="font-[500] text-[18px] lg:text-[20px] ml-4 ">
+              TECHY{`'`}S
+
+            </p>
+            <p className="font-[500] text-[16px] ml-4 py-1">
+              {" "}
+              Junior Full Stack Developer (Remote)
+            </p>
+            <p className="font-[500] text-[16px] ml-4 py-1">
+              {" "}
+              - As a Full Stack Developer, I contribute to client projects by
+              building responsive frontends with Next.js (TypeScript,Tailwind
+              CSS), HeroUI, and shadcn/ui, while developing backend services
+              using Express.js and Prisma ORM. I design RESTful APIs, ensure
+              seamless frontend-backend integration, and collaborate with teams
+              to deliver scalable solutions in an Agile environment.
             </p>
           </div>
         </div>
