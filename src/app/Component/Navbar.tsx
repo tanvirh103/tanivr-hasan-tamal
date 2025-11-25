@@ -14,7 +14,7 @@ import MobileMenu from "./MobileMenu";
 export default function Navbar() {
   const [isShowMenu, setShowMenu] = useState(false);
   return (
-    <div className="sticky top-0 z-50 bg-[#000000] max-w-full">
+    <div className="sticky top-0 z-50 bg-[#000000] max-w-full shadow-md shadow-black">
       <div className="flex justify-between items-center px-2 max-w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto pt-4 pb-4">
         <div className="flex justify-start">
           <Link href={"/"}>
