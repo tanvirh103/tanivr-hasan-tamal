@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "tanvirh103.github.io",
-        pathname: "/tanivr-hasan-tamal/**",
       },
     ],
     localPatterns: [
