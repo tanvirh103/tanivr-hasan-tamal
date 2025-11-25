@@ -17,9 +17,56 @@ const gilroy = localFont({
   ],
   variable: "--font-gilroy",
 });
+
 export const metadata: Metadata = {
-  title: "Tanvir Hasan Tamal",
-  description: "This is a protfolio of Tanvir Hasan Tamal",
+  title: {
+    default: "Tanvir Hasan Tamal – Full Stack Developer & Software Engineer",
+    template: "%s | Tanvir Hasan Tamal",
+  },
+  description:
+    "Portfolio of Tanvir Hasan Tamal, a Full Stack Developer and Software Engineer specializing in Next.js, NestJS, Express.js, Tailwind CSS, and modern JavaScript/TypeScript. Explore projects, experience, and expertise in building scalable, high-performance web applications.",
+  keywords: [
+    "Tanvir Hasan Tamal",
+    "Tamal",
+    "tanvirh103",
+    "Tanvir Tamal",
+    "Full Stack Developer",
+    "Software Engineer",
+    "Next.js Developer",
+    "NestJS Developer",
+    "Express.js Developer",
+    "Tailwind CSS Developer",
+    "JavaScript Developer",
+    "TypeScript Developer",
+    "MERN Developer",
+    "Web Developer Portfolio",
+    "Backend Developer",
+    "Frontend Developer",
+    "React Developer",
+    "Node.js Developer",
+    "Modern Web Development",
+    "API Developer",
+    "GitHub Portfolio",
+    "Bangladesh Developer",
+  ],
+  metadataBase: new URL("https://tanvirh103.github.io/tanivr-hasan-tamal"),
+  authors: [{ name: "Tanvir Hasan Tamal" }],
+  creator: "Tanvir Hasan Tamal",
+  publisher: "Tanvir Hasan Tamal",
+  openGraph: {
+    title: "Tanvir Hasan Tamal – Full Stack Developer & Software Engineer",
+    description:
+      "Explore the portfolio of Tanvir Hasan Tamal, expert in Next.js, NestJS, Express.js, Tailwind CSS, and scalable full stack web development.",
+    url: "https://tanvirh103.github.io/tanivr-hasan-tamal",
+    siteName: "Tanvir Hasan Tamal – Portfolio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Tanvir Hasan Tamal – Full Stack Developer",
+    description:
+      "Full Stack Developer skilled in Next.js, NestJS, Express.js, Tailwind CSS and modern JS/TS.",
+  },
 };
 
 export default function RootLayout({
@@ -29,9 +76,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${gilroy.className}`}
-      >
-        <Navbar/>
+      <body className={`${gilroy.className}`}>
+        <Navbar />
         {children}
       </body>
     </html>
