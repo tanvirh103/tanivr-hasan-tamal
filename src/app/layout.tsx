@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "GitHub Portfolio",
     "Bangladesh Developer",
   ],
-  metadataBase: new URL("https://tanvirh103.github.io/tanivr-hasan-tamal"),
+  metadataBase: new URL("https://tanvirh103.github.io/tanvir-hasan-tamal"),
   authors: [{ name: "Tanvir Hasan Tamal" }],
   creator: "Tanvir Hasan Tamal",
   publisher: "Tanvir Hasan Tamal",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Tanvir Hasan Tamal – Full Stack Developer & Software Engineer",
     description:
       "Explore the portfolio of Tanvir Hasan Tamal, expert in Next.js, NestJS, Express.js, Tailwind CSS, and scalable full stack web development.",
-    url: "https://tanvirh103.github.io/tanivr-hasan-tamal",
+    url: "https://tanvirh103.github.io/tanvir-hasan-tamal",
     siteName: "Tanvir Hasan Tamal – Portfolio",
     type: "website",
   },
