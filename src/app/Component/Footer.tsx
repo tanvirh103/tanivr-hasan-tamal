@@ -3,7 +3,6 @@ import {
   Github,
   LinkendIn,
   Mail,
-  PhoneIcon,
   Whatsapp,
 } from "@/SVG/WelcomeSvg";
 import Link from "next/link";
@@ -25,21 +24,9 @@ export default function Footer() {
             tanvirh103@gmail.com
             </Link>
           </p>
-          <p className="font-[500] text-[14px] flex items-center gap-1">
-            <Mail />
-            <Link href="mailto:">
-            thasan103@yahoo.com
-            </Link>
-          </p>
         </div>
         <div className="flex-1">
           <p className="font-[500] text-[16px]">Make a call</p>
-          <p className="font-[500] text-[14px] flex items-center gap-1">
-            <PhoneIcon />
-            <Link href="tel:" target="_blank">
-              +8801534103985
-            </Link>
-          </p>
           <p className="font-[500] text-[14px] flex items-center gap-1">
             <Whatsapp />
             <Link href="https://wa.me/+8801534103985" target="_blank">
@@ -49,8 +36,7 @@ export default function Footer() {
         </div>
         <div className="flex-1">
           <p className="font-[500] text-[16px]">Get in touch</p>
-          <p className="font-[500] text-[14px]">Aftabnagar, Badda</p>
-          <p className="font-[500] text-[14px]">Dhaka-1212</p>
+          <p className="font-[500] text-[14px]">Aftabnagar, Badda, Dhaka-1212</p>
         </div>
       </div>
       <div className="border-t border-[#1E1E1E] py-2">
