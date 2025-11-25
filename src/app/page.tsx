@@ -48,7 +48,7 @@ export default function Home() {
             <div className="w-full max-w-[300px] px-4">
               <Image
                 className="rounded-[12px] w-full h-auto"
-                src="/images/tanvir.jpg"
+                src="/tanvir-hasan-tamal/images/tanvir.jpg"
                 width={300}
                 height={300}
                 alt="Tanvir Hasan Tamal"
@@ -113,7 +113,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <VerticalTech /> */}
+       <VerticalTech />
       <div
         id="Education"
         className="mt-6 pt-6 pb-6 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8"
