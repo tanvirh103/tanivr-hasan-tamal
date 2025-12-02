@@ -9,7 +9,7 @@ export default function VerticalTech() {
         <p className="text-[24px] md:text-[36px] lg:text-[40px] font-[600] text-[#8dced0]">
           Skills & Tech Stacks
         </p>
-        <p className="text-[16px] md:text-[20px] lg:text-[24px] font-[500]">
+        <p className="text-[16px] md:text-[20px] lg:text-[24px] font-[600]">
           Fueling Creativity with Cutting-Edge Tools
         </p>
       </div>

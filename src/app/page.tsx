@@ -63,13 +63,11 @@ export default function Home() {
             </p>
           </div>
           <div className="flex justify-end px-4">
-            <p
-              className="text-[16px] md:text-[18px] lg:text-[18px] font-[500] lg:text-left flex text-justify md:w-[450px] sm:w-[380px] lg:w-[500px]"
-            >
+            <p className="text-[16px] md:text-[18px] lg:text-[18px] font-[500] lg:text-left flex text-justify md:w-[450px] sm:w-[380px] lg:w-[500px]">
               I'm Tanvir, A passionate Full-Stack Software Engineer with
               expertise in building dynamic, scalable, and high-performance web
               applications. I specialize in modern web technologies like
-              Nest.js, Next.js, Node.js, and PostgreSQL, crafting seamless user
+              Nest.js, Next.js, Express.js, and PostgreSQL, crafting seamless user
               experiences and efficient backend solutions.
             </p>
           </div>
@@ -113,7 +111,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-       <VerticalTech />
+      <VerticalTech />
       <div
         id="Education"
         className="mt-6 pt-6 pb-6 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8"
@@ -164,7 +162,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div
         id="Experience"
         className="pt-6 pb-6 max-w-full lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8"
@@ -223,6 +220,11 @@ export default function Home() {
                 seamless frontend-backend integration, and collaborate with
                 teams to deliver scalable solutions in an Agile environment.
               </p>
+              <p className="font-[500] text-[16px] ml-4 py-1">
+                - Implemented secure payment integrations (Stripe), resolved
+                build issues, and fixed post-deployment problems on VPS
+                environments.
+              </p>
             </div>
           </div>
         </div>
@@ -250,7 +252,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-
       <div
         id="Achievements"
         className="mt-6 pt-6 pb-6 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8"
@@ -282,7 +283,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-
       <div
         id="Projects"
         className="mt-6 pb-12 max-w-1400px lg:max-w-[1400px] 2xl:max-w-[1560px] md:max-w-[1200px] sm:max-w-[1020px] mx-auto px-4 2xl:px-12 lg:px-8"
